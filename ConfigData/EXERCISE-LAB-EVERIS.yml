@@ -1,1 +1,20 @@
-
+---
+# Items that apply to ALL profiles:
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
+      #defaultZone: http://localhost:8011/eureka/,http://localhost:8012/eureka/,http://localhost:8013/eureka/
+---
+spring:
+  profiles: nombre
+words: Juan,Luis,Pedro,Jose,Miguel
+  
+---
+spring:
+  profiles: apellido
+words: Rodriguez,Jimenez,Perez,Sanchez,Guzman
+---
+spring:
+  profiles: dni
+words: 1234,2345,3456,4567,5678
