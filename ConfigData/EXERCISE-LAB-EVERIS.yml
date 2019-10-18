@@ -1,4 +1,5 @@
 list:
+  mensaje: Se obtuvo el listado de personas exitosamente.
   persons:
     -
       dni: 11223344
