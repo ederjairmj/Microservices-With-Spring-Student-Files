@@ -31,3 +31,4 @@ spring:
 words: boat,book,vote,seat,backpack,partition,groundhog
 ---
 message: Se obtuvo el listado de personas exitosamente.
+message2: No existe persona con dni-.
